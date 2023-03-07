@@ -1,0 +1,20 @@
+{
+  "name": "23-03-07-fasity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "tap --reporter=list --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/multipart": "^7.4.2",
+    "fastify": "^4.14.1",
+    "form-auto-content": "^3.0.0",
+    "tap": "^16.3.4"
+  }
+}
